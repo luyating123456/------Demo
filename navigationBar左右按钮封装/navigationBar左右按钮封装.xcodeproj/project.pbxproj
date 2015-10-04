@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EDDFB1F1B9DC02E005AD0C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDFB1E1B9DC02E005AD0C6 /* main.m */; };
+		4EDDFB221B9DC02E005AD0C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDFB211B9DC02E005AD0C6 /* AppDelegate.m */; };
+		4EDDFB2A1B9DC02E005AD0C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EDDFB291B9DC02E005AD0C6 /* Images.xcassets */; };
+		4EDDFB2D1B9DC02E005AD0C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDDFB2B1B9DC02E005AD0C6 /* LaunchScreen.xib */; };
+		4EDDFB391B9DC02E005AD0C6 /* navigationBar______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDFB381B9DC02E005AD0C6 /* navigationBar______Tests.m */; };
+		4EDDFB441B9DC06D005AD0C6 /* rootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDFB431B9DC06D005AD0C6 /* rootViewController.m */; };
+		4EDDFB471B9DC1BF005AD0C6 /* UIBarButtonItem+myButtonIten.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDDFB461B9DC1BF005AD0C6 /* UIBarButtonItem+myButtonIten.m */; };
+		4EDDFB4A1B9DC423005AD0C6 /* navigationbar_back_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDDFB491B9DC423005AD0C6 /* navigationbar_back_icon@2x.png */; };
+		4EDDFB4C1B9DC43A005AD0C6 /* navigationBarItem_favorite_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDDFB4B1B9DC43A005AD0C6 /* navigationBarItem_favorite_normal@2x.png */; };
+		4EDDFB4E1B9DC43E005AD0C6 /* navigationBarItem_like_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDDFB4D1B9DC43E005AD0C6 /* navigationBarItem_like_normal@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EDDFB331B9DC02E005AD0C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EDDFB111B9DC02E005AD0C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EDDFB181B9DC02E005AD0C6;
+			remoteInfo = "navigationBar左右按钮封装";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EDDFB191B9DC02E005AD0C6 /* navigationBar左右按钮封装.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "navigationBar左右按钮封装.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDDFB1D1B9DC02E005AD0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDDFB1E1B9DC02E005AD0C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EDDFB201B9DC02E005AD0C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EDDFB211B9DC02E005AD0C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EDDFB291B9DC02E005AD0C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4EDDFB2C1B9DC02E005AD0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4EDDFB321B9DC02E005AD0C6 /* navigationBar左右按钮封装Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "navigationBar左右按钮封装Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDDFB371B9DC02E005AD0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDDFB381B9DC02E005AD0C6 /* navigationBar______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "navigationBar______Tests.m"; sourceTree = "<group>"; };
+		4EDDFB421B9DC06D005AD0C6 /* rootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rootViewController.h; sourceTree = "<group>"; };
+		4EDDFB431B9DC06D005AD0C6 /* rootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rootViewController.m; sourceTree = "<group>"; };
+		4EDDFB451B9DC1BF005AD0C6 /* UIBarButtonItem+myButtonIten.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+myButtonIten.h"; sourceTree = "<group>"; };
+		4EDDFB461B9DC1BF005AD0C6 /* UIBarButtonItem+myButtonIten.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+myButtonIten.m"; sourceTree = "<group>"; };
+		4EDDFB491B9DC423005AD0C6 /* navigationbar_back_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar_back_icon@2x.png"; sourceTree = "<group>"; };
+		4EDDFB4B1B9DC43A005AD0C6 /* navigationBarItem_favorite_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationBarItem_favorite_normal@2x.png"; sourceTree = "<group>"; };
+		4EDDFB4D1B9DC43E005AD0C6 /* navigationBarItem_like_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationBarItem_like_normal@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EDDFB161B9DC02E005AD0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDDFB2F1B9DC02E005AD0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EDDFB101B9DC02E005AD0C6 = {
+			isa = PBXGroup;
+			children = (
+				4EDDFB1B1B9DC02E005AD0C6 /* navigationBar左右按钮封装 */,
+				4EDDFB351B9DC02E005AD0C6 /* navigationBar左右按钮封装Tests */,
+				4EDDFB1A1B9DC02E005AD0C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EDDFB1A1B9DC02E005AD0C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EDDFB191B9DC02E005AD0C6 /* navigationBar左右按钮封装.app */,
+				4EDDFB321B9DC02E005AD0C6 /* navigationBar左右按钮封装Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EDDFB1B1B9DC02E005AD0C6 /* navigationBar左右按钮封装 */ = {
+			isa = PBXGroup;
+			children = (
+				4EDDFB481B9DC40F005AD0C6 /* 图片 */,
+				4EDDFB201B9DC02E005AD0C6 /* AppDelegate.h */,
+				4EDDFB211B9DC02E005AD0C6 /* AppDelegate.m */,
+				4EDDFB421B9DC06D005AD0C6 /* rootViewController.h */,
+				4EDDFB431B9DC06D005AD0C6 /* rootViewController.m */,
+				4EDDFB451B9DC1BF005AD0C6 /* UIBarButtonItem+myButtonIten.h */,
+				4EDDFB461B9DC1BF005AD0C6 /* UIBarButtonItem+myButtonIten.m */,
+				4EDDFB291B9DC02E005AD0C6 /* Images.xcassets */,
+				4EDDFB2B1B9DC02E005AD0C6 /* LaunchScreen.xib */,
+				4EDDFB1C1B9DC02E005AD0C6 /* Supporting Files */,
+			);
+			path = "navigationBar左右按钮封装";
+			sourceTree = "<group>";
+		};
+		4EDDFB1C1B9DC02E005AD0C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EDDFB1D1B9DC02E005AD0C6 /* Info.plist */,
+				4EDDFB1E1B9DC02E005AD0C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EDDFB351B9DC02E005AD0C6 /* navigationBar左右按钮封装Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4EDDFB381B9DC02E005AD0C6 /* navigationBar______Tests.m */,
+				4EDDFB361B9DC02E005AD0C6 /* Supporting Files */,
+			);
+			path = "navigationBar左右按钮封装Tests";
+			sourceTree = "<group>";
+		};
+		4EDDFB361B9DC02E005AD0C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EDDFB371B9DC02E005AD0C6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EDDFB481B9DC40F005AD0C6 /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				4EDDFB4D1B9DC43E005AD0C6 /* navigationBarItem_like_normal@2x.png */,
+				4EDDFB4B1B9DC43A005AD0C6 /* navigationBarItem_favorite_normal@2x.png */,
+				4EDDFB491B9DC423005AD0C6 /* navigationbar_back_icon@2x.png */,
+			);
+			name = "图片";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EDDFB181B9DC02E005AD0C6 /* navigationBar左右按钮封装 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDDFB3C1B9DC02E005AD0C6 /* Build configuration list for PBXNativeTarget "navigationBar左右按钮封装" */;
+			buildPhases = (
+				4EDDFB151B9DC02E005AD0C6 /* Sources */,
+				4EDDFB161B9DC02E005AD0C6 /* Frameworks */,
+				4EDDFB171B9DC02E005AD0C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "navigationBar左右按钮封装";
+			productName = "navigationBar左右按钮封装";
+			productReference = 4EDDFB191B9DC02E005AD0C6 /* navigationBar左右按钮封装.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EDDFB311B9DC02E005AD0C6 /* navigationBar左右按钮封装Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EDDFB3F1B9DC02E005AD0C6 /* Build configuration list for PBXNativeTarget "navigationBar左右按钮封装Tests" */;
+			buildPhases = (
+				4EDDFB2E1B9DC02E005AD0C6 /* Sources */,
+				4EDDFB2F1B9DC02E005AD0C6 /* Frameworks */,
+				4EDDFB301B9DC02E005AD0C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EDDFB341B9DC02E005AD0C6 /* PBXTargetDependency */,
+			);
+			name = "navigationBar左右按钮封装Tests";
+			productName = "navigationBar左右按钮封装Tests";
+			productReference = 4EDDFB321B9DC02E005AD0C6 /* navigationBar左右按钮封装Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EDDFB111B9DC02E005AD0C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = MS;
+				TargetAttributes = {
+					4EDDFB181B9DC02E005AD0C6 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					4EDDFB311B9DC02E005AD0C6 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 4EDDFB181B9DC02E005AD0C6;
+					};
+				};
+			};
+			buildConfigurationList = 4EDDFB141B9DC02E005AD0C6 /* Build configuration list for PBXProject "navigationBar左右按钮封装" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EDDFB101B9DC02E005AD0C6;
+			productRefGroup = 4EDDFB1A1B9DC02E005AD0C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EDDFB181B9DC02E005AD0C6 /* navigationBar左右按钮封装 */,
+				4EDDFB311B9DC02E005AD0C6 /* navigationBar左右按钮封装Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EDDFB171B9DC02E005AD0C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDDFB4C1B9DC43A005AD0C6 /* navigationBarItem_favorite_normal@2x.png in Resources */,
+				4EDDFB2D1B9DC02E005AD0C6 /* LaunchScreen.xib in Resources */,
+				4EDDFB4E1B9DC43E005AD0C6 /* navigationBarItem_like_normal@2x.png in Resources */,
+				4EDDFB2A1B9DC02E005AD0C6 /* Images.xcassets in Resources */,
+				4EDDFB4A1B9DC423005AD0C6 /* navigationbar_back_icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDDFB301B9DC02E005AD0C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EDDFB151B9DC02E005AD0C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDDFB471B9DC1BF005AD0C6 /* UIBarButtonItem+myButtonIten.m in Sources */,
+				4EDDFB221B9DC02E005AD0C6 /* AppDelegate.m in Sources */,
+				4EDDFB441B9DC06D005AD0C6 /* rootViewController.m in Sources */,
+				4EDDFB1F1B9DC02E005AD0C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EDDFB2E1B9DC02E005AD0C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDDFB391B9DC02E005AD0C6 /* navigationBar______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EDDFB341B9DC02E005AD0C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EDDFB181B9DC02E005AD0C6 /* navigationBar左右按钮封装 */;
+			targetProxy = 4EDDFB331B9DC02E005AD0C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EDDFB2B1B9DC02E005AD0C6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EDDFB2C1B9DC02E005AD0C6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EDDFB3A1B9DC02E005AD0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EDDFB3B1B9DC02E005AD0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EDDFB3D1B9DC02E005AD0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "navigationBar左右按钮封装/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EDDFB3E1B9DC02E005AD0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "navigationBar左右按钮封装/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4EDDFB401B9DC02E005AD0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "navigationBar左右按钮封装Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/navigationBar左右按钮封装.app/navigationBar左右按钮封装";
+			};
+			name = Debug;
+		};
+		4EDDFB411B9DC02E005AD0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "navigationBar左右按钮封装Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/navigationBar左右按钮封装.app/navigationBar左右按钮封装";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EDDFB141B9DC02E005AD0C6 /* Build configuration list for PBXProject "navigationBar左右按钮封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDDFB3A1B9DC02E005AD0C6 /* Debug */,
+				4EDDFB3B1B9DC02E005AD0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EDDFB3C1B9DC02E005AD0C6 /* Build configuration list for PBXNativeTarget "navigationBar左右按钮封装" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDDFB3D1B9DC02E005AD0C6 /* Debug */,
+				4EDDFB3E1B9DC02E005AD0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EDDFB3F1B9DC02E005AD0C6 /* Build configuration list for PBXNativeTarget "navigationBar左右按钮封装Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EDDFB401B9DC02E005AD0C6 /* Debug */,
+				4EDDFB411B9DC02E005AD0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EDDFB111B9DC02E005AD0C6 /* Project object */;
+}
